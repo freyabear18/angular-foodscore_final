@@ -1,0 +1,15 @@
+<form class="mt-4">
+  <legend>Welcome to FoodScore!</legend>
+
+  <div class="mb-3">
+    <label for="correo">Email:</label>
+    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required />
+  </div>
+  <div class="mb-3">
+    <label for="password">Password:</label>
+    <input type="password" class="form-control" name="password" id="password" placeholder="Password" required />
+  </div>
+  <p class="text-danger" id="errorInfo"></p>
+  <!-- <a class="btn btn-secondary" role="button" [routerLink]="['/auth/register']" >Create account</a> -->
+  <button type="submit" class="btn btn-primary" [routerLink]="['/restaurants']">Login</button>
+</form>
